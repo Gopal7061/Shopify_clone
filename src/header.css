@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 90vh;
+    margin-top: 80px;
+    background-image: url(heroImage.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+  
+    /* border: 2px solid red; */
+    /* filter: blur(2.5px); */
+    /* z-index: -1; */
+    
+}
+.header .left .top{
+    width: 100%;
+    height: 70%;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 150px;
+}
+.header .left .top h1{
+    font-size: 3.7rem;
+}
+.header .left .top p{
+    font-size: 1.3rem;
+    margin-top: 50px;
+}
+.header .left .bottom{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    /* border: 2px solid white; */
+    height: 30%;
+    gap: 20px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
+.header .left .bottom p{
+    font-size: 1.3rem;
+    color: white;
+    padding-bottom: 12px;
+}
+
+.header .left .bottom button{
+    width: 150px;
+    height: 50px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    transition: 0.2s ease;
+    border: none;
+    transition: 0.2s ease;
+    border: 2px solid white;
+}
+
+.header .left .bottom button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.header .right{
+    /* border: 2px solid green; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;  
+    padding-bottom: 22px ;
+}
+.header .right button{
+    background-color: transparent;
+    color: white;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 1.2rem;
+}
+.header .right button:hover{
+    background-color: white;
+    color: black;
+}
